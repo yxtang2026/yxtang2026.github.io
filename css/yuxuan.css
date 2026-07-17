@@ -1,0 +1,227 @@
+/* Small site-specific adjustments on top of the original Hugo Academic theme. */
+body {
+  color: rgba(0, 0, 0, 0.82);
+}
+
+a,
+a:visited,
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a {
+  color: #333;
+}
+
+a:hover,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-nav > li > a:hover {
+  color: #3f7f72;
+}
+
+.black-link {
+  color: #222;
+  text-decoration: underline;
+}
+
+.about-page .black-link,
+.about-page .black-link:visited {
+  color: #005f99;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.about-page .black-link:hover,
+.about-page .black-link:focus {
+  color: #003f66;
+  text-decoration: none;
+}
+
+.home-section {
+  min-height: calc(100vh - 71px);
+}
+
+.home-section h2 {
+  margin-top: 36px;
+  margin-bottom: 16px;
+  font-size: 1.45rem;
+}
+
+#profile .portrait {
+  width: 190px;
+  height: 190px;
+}
+
+#profile .social-icon a,
+#profile .social-icon a:visited {
+  color: #0095eb;
+}
+
+#profile .social-icon a:hover,
+#profile .social-icon a:focus {
+  color: #005181;
+}
+
+.publication,
+.course-item {
+  margin-bottom: 28px;
+}
+
+.publication p,
+.course-item p {
+  margin-bottom: 6px;
+}
+
+.research-page .research-topic {
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.research-page .publication-list {
+  margin-bottom: 48px;
+  font-size: 16px;
+}
+
+.research-page .section-heading h1 {
+  font-size: 32px;
+}
+
+.research-page .publication-list li {
+  margin-bottom: 24px;
+}
+
+.research-page .publication-list p {
+  margin-top: 6px;
+  margin-bottom: 0;
+}
+
+.research-page .pub-icon {
+  color: #0095eb;
+}
+
+.research-page .paper-title,
+.research-page .paper-title:visited {
+  color: #0000ee;
+  text-decoration: none;
+}
+
+.research-page .paper-title:hover,
+.research-page .paper-title:focus {
+  color: #0000aa;
+}
+
+.research-page .author {
+  color: #000;
+  font-weight: lighter;
+}
+
+.research-page .research-link,
+.research-page .research-link:visited {
+  color: #005f99;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.research-page .research-link:hover,
+.research-page .research-link:focus {
+  color: #003f66;
+  text-decoration: none;
+}
+
+.research-page .journal {
+  color: #8e1900;
+  font-weight: 550;
+}
+
+.research-page .journal.venue-name {
+  font-weight: 400;
+}
+
+.research-page .recognition {
+  display: inline-block;
+  margin-left: 1.4em;
+  color: #999;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.research-page .recognition .fas,
+.research-page .recognition .far {
+  width: 18px;
+  color: #001868;
+  font-size: 16px;
+  text-align: center;
+}
+
+.presentation-page .presentation-list > li {
+  margin-bottom: 32px;
+}
+
+.presentation-page .presentation-list {
+  font-size: 16px;
+}
+
+.presentation-page .section-heading h1,
+.teaching-page .section-heading h1 {
+  font-size: 32px;
+}
+
+.presentation-page .presentation-icon {
+  color: #0095eb;
+}
+
+.presentation-page .talk-list {
+  padding-left: 18px;
+  margin-top: 7px;
+  color: #222;
+  font-weight: 400;
+}
+
+.presentation-page .talk-list li {
+  margin-bottom: 2px;
+}
+
+.teaching-page .teaching-topic {
+  margin-top: 0;
+  margin-bottom: 4px;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.teaching-page .teaching-institution {
+  margin-bottom: 30px;
+  color: #222;
+  font-size: 16px;
+}
+
+.teaching-page .teaching-list {
+  font-size: 16px;
+}
+
+.teaching-page .teaching-list > li {
+  margin-bottom: 28px;
+}
+
+.teaching-page .teaching-icon {
+  color: #0095eb;
+}
+
+.teaching-page .course-code {
+  color: #005f99;
+}
+
+.teaching-page .teaching-list p {
+  margin-top: 7px;
+  margin-bottom: 0;
+  color: #222;
+  font-weight: 400;
+}
+
+.section-heading h1 {
+  font-size: 2rem;
+}
+
+@media (max-width: 991px) {
+  .section-heading h1 {
+    margin-bottom: 32px;
+  }
+}
