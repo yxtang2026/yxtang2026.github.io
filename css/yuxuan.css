@@ -205,14 +205,20 @@ a:hover,
 }
 
 .teaching-page .others-list {
-  padding-left: 20px;
+  margin-left: 2.14285714em;
+  padding-left: 0;
   margin-bottom: 18px;
   color: #222;
   font-size: 16px;
 }
 
 .teaching-page .others-list li {
+  position: relative;
   margin-bottom: 6px;
+}
+
+.teaching-page .others-icon {
+  color: #0095eb;
 }
 
 .teaching-page .teaching-list {
