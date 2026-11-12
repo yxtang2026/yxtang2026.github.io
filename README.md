@@ -7,7 +7,7 @@ Personal academic website for Yuxuan Tang.
 - `index.html`: About
 - `research.html`: Research
 - `presentation.html`: Presentations
-- `teaching.html`: Teaching
+- `others.html`: Others
 - `css/yuxuan.css`: Small site-specific style adjustments
 - `img/Yuxuan_Tang.jpg`: Profile photo
 

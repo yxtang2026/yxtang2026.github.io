@@ -193,6 +193,28 @@ a:hover,
   font-size: 16px;
 }
 
+.teaching-page .others-section {
+  margin-top: 42px;
+}
+
+.teaching-page .others-subtopic {
+  margin-top: 20px;
+  margin-bottom: 8px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.teaching-page .others-list {
+  padding-left: 20px;
+  margin-bottom: 18px;
+  color: #222;
+  font-size: 16px;
+}
+
+.teaching-page .others-list li {
+  margin-bottom: 6px;
+}
+
 .teaching-page .teaching-list {
   font-size: 16px;
 }
